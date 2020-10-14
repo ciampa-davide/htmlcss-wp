@@ -1,0 +1,105 @@
+body{
+  height: 1000px;
+  width: 55%;
+  margin-left: 23%;
+  display: inline-block;
+  background-image: url("https://img.edilportale.com/product-thumbs/b_PARQUET-Olmo-AREA-CERAMICHE-390664-rel4337c55e.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+header{
+  height: 200px;
+  background: lightgrey;
+  text-align: center;
+  margin: 2% 0;
+}
+.top{
+  background-image: url("https://www.homewallmurals.co.uk/ekmps/shops/allwallpapers/images/forest-scene-sunrice-wallpaper-mural-%5B2%5D-6543-p.jpg");
+  height: 80%;
+  width:100%;
+  border: 1px solid white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-transform: uppercase;
+}
+.logo{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.logo img{
+  height: 120px;
+}
+.menu{
+  height: 5%;
+  width: 100%;
+  vertical-align: bottom;
+}
+ul{
+  display: inline-block;
+  list-style: none;
+  color: black;
+}
+ul > li{
+
+  float: left;
+  margin: 0 15px;
+}
+a{
+  text-decoration: none;
+  color: black;
+
+}
+p{
+  font-size: 15px;
+}
+main{
+  height:100%;
+  width:100%;
+  margin-top: 2%;
+}
+main::after{
+  content:"";
+  display: table;
+  clear:left;
+}
+
+.left{
+height: 300px;
+width: 20%;
+background:white;
+float: left;
+border-radius: 2%;
+}
+
+.center{
+  height: 50%;
+  width:50%;
+  background: white;
+  float: left;
+  margin-left: 5%;
+  border-radius: 2%;
+}
+
+.right{
+  width: 15%;
+  background:white;
+  float: right;
+  border-radius: 2%;
+  margin-bottom: 10px;
+  clear: right;
+}
+h2{
+  font-size: 22px;
+}
+p{
+  font-size: 16px;
+}
